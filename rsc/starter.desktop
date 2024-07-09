@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=starter
+# Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+Keywords=utilities
+Comment=Scott Combs Code
+GenericName=starter
+Exec=/usr/local/share/starter/starter
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=/usr/local/share/starter/starter.png
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Utilities;
+

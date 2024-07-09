@@ -1,0 +1,29 @@
+#ifndef __MENU_MAIN__
+#define __MENU_MAIN__
+
+Glib::ustring ui_menu_main =
+  "<interface>"
+  "  <menu id='menu-main-popup'>"
+  "    <section>"
+  "      <item>"
+  "        <attribute name='id'>main_actions_about</attribute>"
+  "        <attribute name='label' translatable='yes'>About...</attribute>"
+  "        <attribute name='action'>main_actions.about</attribute>"
+  "      </item>"
+  "      <item>"
+  "        <attribute name='id'>main_actions_preferences</attribute>"
+  "        <attribute name='label' translatable='yes'>Preferences</attribute>"
+  "        <attribute name='action'>main_actions.preferences</attribute>"
+  "      </item>"
+  "    </section>"
+  "    <section>"
+  "      <item>"
+  "        <attribute name='id'>main_actions_quit</attribute>"
+  "        <attribute name='label' translatable='yes'>Quit</attribute>"
+  "        <attribute name='action'>main_actions.quit</attribute>"
+  "      </item>"
+  "    </section>"
+  "  </menu>"
+  "</interface>";
+  
+  #endif

@@ -1,0 +1,27 @@
+#ifndef __MENU_DROPDOWN__
+#define __MENU_DROPDOWN__
+
+Glib::ustring ui_menu_dropdown =
+  "<interface>"
+  "  <menu id='menu-dropdown-popup'>"
+  "    <section>"
+  "      <item>"
+  "        <attribute name='id'>dropdown_actions_item1</attribute>"
+  "        <attribute name='label' translatable='yes'>Item 1</attribute>"
+  "        <attribute name='action'>dropdown_actions.item1</attribute>"
+  "      </item>"
+  "      <item>"
+  "        <attribute name='id'>dropdown_actions_item2</attribute>"
+  "        <attribute name='label' translatable='yes'>Item 2</attribute>"
+  "        <attribute name='action'>dropdown_actions.item2</attribute>"
+  "      </item>"
+  "      <item>"
+  "        <attribute name='id'>dropdown_actions_item3</attribute>"
+  "        <attribute name='label' translatable='yes'>Item 3</attribute>"
+  "        <attribute name='action'>dropdown_actions.item3</attribute>"
+  "      </item>"
+  "    </section>"
+  "  </menu>"
+  "</interface>";
+  
+  #endif
