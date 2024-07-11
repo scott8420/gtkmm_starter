@@ -1,4 +1,5 @@
 #include <main_window.h>
+#include <utilities.h>
 #include <main_menu.ui>
 #include <dropdown_menu.ui>
 #include <icon.xpm>
@@ -62,6 +63,7 @@ void MainWindow::setup_actions() {
 	if(this->m_app != nullptr) {
 		this->m_app->set_accel_for_action("main_actions.quit", "<Primary>q");
 		this->m_app->set_accel_for_action("main_actions.about", "<Primary>i");
+		this->m_app->set_accel_for_action("main_actions.preferences", "<Primary>comma");
 	}
 }
 
@@ -71,16 +73,7 @@ void MainWindow::on_action_about() {
 }
 
 void MainWindow::on_action_preferences() {
-	if(this->m_alert_dialog == nullptr) {
-		this->m_alert_dialog = Gtk::AlertDialog::create();
-	}
-
-	this->m_alert_dialog->set_buttons({});
-    this->m_alert_dialog->set_default_button(-1);
-    this->m_alert_dialog->set_cancel_button(-1);
-	this->m_alert_dialog->set_message("You clicked me");
-	this->m_alert_dialog->set_detail("Just a message");
-	this->m_alert_dialog->show();
+	Utilities::alert_message(this, "Preferences Menu Item selected", "Just extra info");
 }
 
 void MainWindow::on_action_quit() {

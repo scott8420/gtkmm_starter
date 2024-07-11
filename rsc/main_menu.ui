@@ -7,7 +7,7 @@ Glib::ustring ui_menu_main =
   "    <section>"
   "      <item>"
   "        <attribute name='id'>main_actions_about</attribute>"
-  "        <attribute name='label' translatable='yes'>About...</attribute>"
+  "        <attribute name='label' translatable='yes'>About</attribute>"
   "        <attribute name='action'>main_actions.about</attribute>"
   "      </item>"
   "      <item>"

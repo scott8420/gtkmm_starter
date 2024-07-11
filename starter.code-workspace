@@ -4,5 +4,13 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"makefile.launchConfigurations": [
+			{
+				"cwd": "/home/scott/Develop/gtk/gtkmm_starter/bin",
+				"binaryPath": "/home/scott/Develop/gtk/gtkmm_starter/bin/starter",
+				"binaryArgs": []
+			}
+		]
+	}
 }
