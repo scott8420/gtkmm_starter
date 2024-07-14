@@ -3,7 +3,7 @@
 # PROPERTIES
 PROG=starter
 CXX=g++
-CXXFLAGS=`pkg-config --cflags gtkmm-4.0` -Iinclude/ -Irsc/ -std=c++17 -g
+CXXFLAGS=`pkg-config --cflags gtkmm-4.0` -Iinclude/ -Irsc/ -Ivendor/spdlog/include -std=c++17 -g
 LIBS=`pkg-config --libs gtkmm-4.0`
 SRCS=$(wildcard src/*.cc)
 OBJS=$(SRCS:.cc=.o)
